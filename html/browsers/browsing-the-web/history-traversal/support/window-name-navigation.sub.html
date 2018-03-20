@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
     <script>
+        console.log('start');
         var url = new URL(window.location.href);
+        console.log(url.toString());
         url.hostname = "{{GET[hostname]}}";
+        console.log(url.toString());
         url.pathname = "/html/browsers/browsing-the-web/history-traversal/support/window-name-test.sub.html";
+        console.log(url.toString());
         url.search = "shouldhavename={{GET[shouldhavename]}}&sendmessage={{GET[sendmessage]}}";
+        console.log(url.toString());
         window.name = "test";
+        console.log(window.name);
         document.location = url.href;
     </script>
 </html>

@@ -950,3 +950,6 @@ WEB-PLATFORM.TEST: webdriver/tests/cookies/add_cookie.py
 WEB-PLATFORM.TEST: webdriver/tests/cookies/get_named_cookie.py
 WEB-PLATFORM.TEST: webrtc/RTCPeerConnection-getIdentityAssertion.html
 WEB-PLATFORM.TEST: webrtc/identity-helper.js
+
+
+CONSOLE: html/browsers/browsing-the-web/history-traversal/support/window-name-navigation.sub.html
